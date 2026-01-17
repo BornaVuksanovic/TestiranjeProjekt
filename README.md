@@ -1,6 +1,6 @@
-* Projekt Automatsko testiranje Web aplikacije (REST API)
+# Projekt Automatsko testiranje Web aplikacije (REST API)
 
-1. Prije izrade projekta instalirao sam potrebne alate:
+# 1. Prije izrade projekta instalirao sam potrebne alate:
      - Java JDK
      - TestNG
      - IntelliJ
@@ -21,7 +21,7 @@
 
 3. Pokrenio sam JSON poslužitelj s naredbom:
    PS C:\Users\bocov\AppData\Roaming\npm> json-server --port 700 --routes routes.json --watch db.json
-   <img width="822" height="869" alt="image" src="https://github.com/user-attachments/assets/55dfaedb-192c-4d29-baa7-4a7017e1e476" />
+     <img width="1223" height="641" alt="image" src="https://github.com/user-attachments/assets/ea8d3bee-058d-42fe-a368-d6d8880b70e1" />
 
 4. Pokrenio sam IntelliJ IDEA i izradio Maven projekt koristeći Java programski jezik.
 
