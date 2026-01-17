@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AllTestsSuite" duration-ms="14529" started-at="2026-01-17T17:07:54Z" finished-at="2026-01-17T17:08:08Z">
+    <groups>
+    </groups>
+    <test name="My First Selenium TestNG Test" duration-ms="14529" started-at="2026-01-17T17:07:54Z" finished-at="2026-01-17T17:08:08Z">
+      <class name="tests.FirstTest">
+        <test-method status="PASS" signature="simple_get_test()[pri:0, instance:tests.FirstTest@7b2bbc3]" name="simple_get_test" duration-ms="3990" started-at="2026-01-17T17:07:54Z" finished-at="2026-01-17T17:07:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simple_get_test -->
+      </class> <!-- tests.FirstTest -->
+      <class name="tests.SecondTest">
+        <test-method status="PASS" signature="post_test()[pri:0, instance:tests.SecondTest@a1153bc]" name="post_test" duration-ms="2146" started-at="2026-01-17T17:07:58Z" finished-at="2026-01-17T17:08:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_test -->
+      </class> <!-- tests.SecondTest -->
+      <class name="tests.ThirdTest">
+        <test-method status="PASS" signature="put_test()[pri:0, instance:tests.ThirdTest@1aafa419]" name="put_test" duration-ms="2116" started-at="2026-01-17T17:08:00Z" finished-at="2026-01-17T17:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- put_test -->
+      </class> <!-- tests.ThirdTest -->
+      <class name="tests.FifthTest">
+        <test-method status="PASS" signature="delete_test()[pri:0, instance:tests.FifthTest@55141def]" name="delete_test" duration-ms="4160" started-at="2026-01-17T17:08:04Z" finished-at="2026-01-17T17:08:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_test -->
+      </class> <!-- tests.FifthTest -->
+      <class name="tests.FourthTest">
+        <test-method status="PASS" signature="patch_test()[pri:0, instance:tests.FourthTest@47eaca72]" name="patch_test" duration-ms="2095" started-at="2026-01-17T17:08:02Z" finished-at="2026-01-17T17:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patch_test -->
+      </class> <!-- tests.FourthTest -->
+    </test> <!-- My First Selenium TestNG Test -->
+  </suite> <!-- AllTestsSuite -->
+</testng-results>
