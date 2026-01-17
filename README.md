@@ -1,6 +1,6 @@
 # Projekt Automatsko testiranje Web aplikacije (REST API)
 
-# 1. Prije izrade projekta instalirao sam potrebne alate:
+## 1. Prije izrade projekta instalirao sam potrebne alate:
      - Java JDK
      - TestNG
      - IntelliJ
