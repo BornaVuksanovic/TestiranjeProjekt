@@ -1,0 +1,50 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Harry Potter i darovi smrti",
+      "caption": "Solidna knjiga",
+      "image": "https://res.cloudinary.com/dhprbiguv/image/upload/v1762604215/mo8bvarqfrhz5vdozcsl.jpg",
+      "rating": 4,
+      "user": 1
+    },
+    {
+      "title": "Preobrazba",
+      "caption": "Jedna od rijetkih koje sam pročitao",
+      "rating": 5,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "title": "Matematika 1",
+      "caption": "Test",
+      "image": "https://res.cloudinary.com/dhprbiguv/image/upload/v1766081862/wyla0cvkvrysmmirzxtd.jpg",
+      "rating": 1,
+      "user": 2
+    },
+    {
+      "title": "Ježeva Kućica",
+      "caption": "Super knjiga za djecu",
+      "image": "",
+      "rating": 5,
+      "user": 5,
+      "id": 5
+    },
+    {
+      "title": "Ježeva Kućica",
+      "caption": "Super knjiga za djecu",
+      "image": "",
+      "rating": 5,
+      "user": 5,
+      "id": 6
+    },
+    {
+      "title": "Ježeva Kućica",
+      "caption": "Super knjiga za djecu",
+      "image": "",
+      "rating": 5,
+      "user": 5,
+      "id": 7
+    }
+  ]
+}

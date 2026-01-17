@@ -1,0 +1,7 @@
+{
+  "/books": "/books",
+  "/books/:id": "/books/:id",
+  "/book/add": "/books",
+  "/books/update/:id": "/books/:id",
+  "/books/delete/:id": "/books/:id"
+}
