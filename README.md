@@ -7,7 +7,7 @@
      - Maven
      - JSON Server
   
-2. Kao bazu podataka uzeo sam bazu iz jednog od mojih projekata.
+## 2. Kao bazu podataka uzeo sam bazu iz jednog od mojih projekata.
    U bazi se nalaze knjige iz mojeg projekta BookWarm.
    Pomoću MongoDB, baze mog projekta, exportao sam tu bazu kao lokalni JSON fajl.
    CMD naredba za export:
@@ -19,26 +19,26 @@
 
    Kao rute koristio sam rute iz moje aplikacije, ali prilagođene za testiranje.
 
-3. Pokrenio sam JSON poslužitelj s naredbom:
+## 3. Pokrenio sam JSON poslužitelj s naredbom:
    PS C:\Users\bocov\AppData\Roaming\npm> json-server --port 700 --routes routes.json --watch db.json
      <img width="1223" height="641" alt="image" src="https://github.com/user-attachments/assets/ea8d3bee-058d-42fe-a368-d6d8880b70e1" />
 
-4. Pokrenio sam IntelliJ IDEA i izradio Maven projekt koristeći Java programski jezik.
+## 4. Pokrenio sam IntelliJ IDEA i izradio Maven projekt koristeći Java programski jezik.
 
-5.  U Pom.xml datoteku dodao sam Maven ovisnosti.
+## 5.  U Pom.xml datoteku dodao sam Maven ovisnosti.
 
-6.  Kreirao sam foldere Java i Tests te u njih dodao 5 testnih klasa:
+## 6.  Kreirao sam foldere Java i Tests te u njih dodao 5 testnih klasa:
          1. Test - GET - dohvati recenziju knjige
          2. Test - POST - kreiraj
          3. Test - PUT - izmjeni
          4. Test - PATCH - izmjeni
          5. Test - DELETE -obriši
 
-7. Stvorio sam testing.xml datoteku unutar projektne mape i dodao testove i nazive klasa.
+## 7. Stvorio sam testing.xml datoteku unutar projektne mape i dodao testove i nazive klasa.
    Desnim klikom miša na tu datoteku pokretao sam testove pritiskom na "Run".
    <img width="959" height="391" alt="image" src="https://github.com/user-attachments/assets/4268b1f3-c4b8-4ea7-9e44-007f87cc8c36" />
 
-8. Pokretao sam testove iz komandne linije unutar projektne mape s naredbom:
+## 8. Pokretao sam testove iz komandne linije unutar projektne mape s naredbom:
    PS C:\Users\bocov\IdeaProjects\Project> C:\Users\bocov\apache-maven-3.9.12-bin\apache-maven-3.9.12\bin\mvn test
 
    Nakon toga dobio sam izvješća o izvršenim testovima (index.html).
